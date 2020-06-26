@@ -1,0 +1,35 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "Final webpage for showing all I have learnt in the past three months",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusWisord/ProyectoFinalPM.git"
+  },
+  "keywords": [
+    "Next",
+    "React"
+  ],
+  "author": "JesusWisord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesusWisord/ProyectoFinalPM/issues"
+  },
+  "homepage": "https://github.com/JesusWisord/ProyectoFinalPM#readme",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.9"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  }
+}

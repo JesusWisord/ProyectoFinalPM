@@ -1,0 +1,15 @@
+.course__container {
+  width: 1000px;
+  margin: 0 auto;
+  & .course__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    & li {
+      justify-self: center;
+      align-self: center;
+      list-style: none;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+$headerColor: #178c4a;
+
+header {
+  background-color: $headerColor;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  &.full figure img {
+    height: 100px;
+  }
+  &.simple {
+    & figure img{
+      height: 50px;
+    }
+    & h1 {
+      font-size: 24px;
+    }
+  }
+}
